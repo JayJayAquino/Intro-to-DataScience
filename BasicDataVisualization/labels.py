@@ -54,3 +54,17 @@ ax.set_ylabel('miles per gallon')
 
 ax.legend(loc='best')
 plt.show()
+
+print(mpg.max())
+ax2 = fig.add_axes([.1,.1,1,2])
+mpg.plot()
+ax2.set_title('Miles per Gallon of Cars in mtcars lol')
+ax2.set_ylabel('miles per gallon oof')
+ax2.set_ylim([0,45])
+
+# arguments, string for annotation, xy to demark location you are annotating
+# xytext specifies the location of annotation text to be placed, arrowprops specifies
+# properties of arrow we are annotating
+ax2.annotate('Toyota Corolla', xy=(19,33.9), xytext=(21,35), arrowprops=dict(facecolor='black',shrink=0.05))
+
+plt.show()
