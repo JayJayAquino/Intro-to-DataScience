@@ -1,0 +1,68 @@
+Types of Machine Learning covered
+  Regression
+    Linear Regression
+    Logistic Regression
+
+  Bayesian
+    Naive Bayes(Gaussian, Bernoulli & Multinomial)
+
+  Dimension Reduction
+    Principal Component Analaysis(PCA)
+
+  Instance Based
+    k-Nearest Neighbor
+    (k-NN) Algorithm
+
+  Clustering
+    K-Means Clustering
+    Hierarchical Clustering
+    Density-Based Spatial Clustering of Applications with Noise
+      (DBSCAN)
+
+Common Terms
+  Feature - Variables, columns, attributes, and fields
+  Instance - row, observation, data point, value, and case
+  Target - predictant and dependent Variables
+  Data - predictor or set of predictor Variables
+
+  Testing and Training
+  Supervised and Unsupervised
+    Supervised e.g. - spam detection
+    Unsupervised e.g. - putting a house on the market
+
+Factor Analysis
+  Definition - A method used to explore datasets to find root
+    causes that explain why data is acting a certain way
+
+  Factors (latent variables) = Variables that are quite meaningful
+    but are inferred and not directly observable
+
+  Assumptions
+    Features are metric
+    Features are continuous or ordinal
+    There is a r > 0.3 correlation between the features in your dataset
+    You have > 100 observations and > 5 observations per feature
+    Sample is homogenous
+
+Singular Value Decomposition (SVD)
+  Definition - A linear algebra method that decomposes a matrix into
+    three resultant matrices to reduce information redundancy and noise
+
+  Most commonly used for principal component analysis.
+  Principal Components - Uncorrelated features that embody a dataset's important
+    information (its "variance") with the redundancy, noise, and outliers stripped out.
+
+    (synthetic representations of a dataset)
+
+  PCA Use Cases
+    Fraud detection
+    Spam detection
+    Image recognition
+    Speech recognition
+
+  When Using Factors and Components
+    Both factors and components represent what is left of a dataset after
+      information redundancy and noise is stripped out
+
+    You can use them as input variables for machine learning algorithms, to
+      generate predictions from these compressed representations of your data.
